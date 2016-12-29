@@ -43,6 +43,7 @@ gem 'paranoia', '~> 2.2'
 gem 'pivotal-tracker-api', '0.1.9'
 gem 'polyamorous', '~> 1.2.0'
 gem 'public_activity'
+gem 'pg'
 gem 'puma'
 gem 'rack-cache'
 gem 'rails', '4.2.6'
@@ -115,5 +116,4 @@ group :production do
   gem 'airbrake'
   gem 'newrelic_rpm'
   gem 'rails_12factor'
-  gem 'pg'
 end
