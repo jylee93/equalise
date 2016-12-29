@@ -2,9 +2,9 @@ features:
   custom_errors:
     enabled: false
     email_notifier:
-      email_prefix: '[ERROR] '
-      sender: '"Error Police" <error-police@agileventures.org>'
-      exception_recipients: ['info@agileventures.org']
+#      email_prefix: '[ERROR] '
+ #     sender: '"Error Police" <error-police@agileventures.org>'
+  #    exception_recipients: ['info@agileventures.org']
   disqus:
     enabled: true
   welcome_email:
@@ -25,7 +25,7 @@ mailer:
     domain: 'domain'
     authentication: 'auth'
   url_host: 'localhost:3000'
-  devise_mailer_sender: 'info@agileventures.org'
+ # devise_mailer_sender: 'info@agileventures.org'
 
 # newsletter send_as: (:instant | :scheduler_job)
 # does what it looks like
@@ -39,9 +39,9 @@ newsletter:
 privileged_users: ""
 
 disqus:
-  shortname: 'agileventures-dev'
-  api_key:  'Mh9WLi09Ve752WaTu3xbfEpSXDHOluVNc2Cm8UnDVA5TTuKXUebEVq56cDlu0SBu'
-  secret_key: 'bRtQeANt2qJQ9Y6CJZtA2I2g6dioHKDuPaX5US17JmRXmvMYcG69wZXeKaFmd8qJ'
+  #shortname: 'agileventures-dev'
+  #api_key:  'Mh9WLi09Ve752WaTu3xbfEpSXDHOluVNc2Cm8UnDVA5TTuKXUebEVq56cDlu0SBu'
+  #secret_key: 'bRtQeANt2qJQ9Y6CJZtA2I2g6dioHKDuPaX5US17JmRXmvMYcG69wZXeKaFmd8qJ'
 
 hangouts:
   app_id: <%= ENV['HANGOUTS_APP_ID'] %>
@@ -61,4 +61,4 @@ agile_bot_url: <%= ENV['AGILE_BOT_URL'] %>
 paypal:
   form_url: 'https://www.sandbox.paypal.com/cgi-bin/webscr'
   form_asset_root: 'https://www.sandbox.paypal.com'
-  email: 'sam-facilitator@agileventures.org'
+#  email: 'sam-facilitator@agileventures.org'
