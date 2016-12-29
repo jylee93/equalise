@@ -12,7 +12,12 @@ test: &test
 
 production:
   <<: *dev
+  adapter: postgresql
+  encoding: unicode
   database: equalise_production
+  pool:5
+  username:jylee93
+  password: 1234
 
 cucumber:
   <<: *test
