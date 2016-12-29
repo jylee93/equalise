@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.3.3'
 
 gem 'active_model-errors_details'
 gem 'acts-as-taggable-on'
