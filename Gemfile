@@ -40,7 +40,6 @@ gem 'omniauth-gplus', '~> 2.0.1'
 gem 'omniauth-oauth2', '~> 1.3.1'
 gem 'paper_trail', '4.0.0'
 gem 'paranoia', '~> 2.2'
-gem 'pg'
 gem 'pivotal-tracker-api', '0.1.9'
 gem 'polyamorous', '~> 1.2.0'
 gem 'public_activity'
@@ -116,4 +115,5 @@ group :production do
   gem 'airbrake'
   gem 'newrelic_rpm'
   gem 'rails_12factor'
+  gem 'pg'
 end
